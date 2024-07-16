@@ -1,0 +1,67 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Lemonada';
+    font-style: normal;
+    font-weight: normal;
+    src: url('Lemonada-Regular.woff') format('woff');
+}
+
+body {
+    background-color: black;
+}
+
+header {
+    width: 100%;
+    text-align: center;
+}
+
+.cabecalho {
+    color: white;
+    font-family: 'Lemonada';
+}
+
+.retangulo {
+    background-color: #1D1D1D;
+    width: 937px;
+    height: 800px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.p1 {
+    color: white;
+    font-family: 'Lemonada';
+    text-shadow: 3px 1px black;
+}
+
+.digite {
+    background-color: #393939;
+    border: none; 
+    color: white;
+    width: 75%;
+    text-align: center;
+    padding: 5px;
+    display: block;
+    margin: 0 auto;
+    font-size: 15px;
+    font-family: 'Lemonada';
+    text-shadow: 2px 1px black;
+}
+
+.creditos {
+    text-align: center;
+    color: white;
+    font-family: 'Lemonada';
+    margin-top: 20px;
+}
+
+.creditos h2 {
+    font-size: 18px;
+}
+
